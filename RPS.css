@@ -1,0 +1,104 @@
+*{
+    text-align: center;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: rgb(34, 32, 32);
+}
+/* *{
+    background-color: rgb(169, 154, 87);
+} */
+#container{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin: 4rem;
+    /* margin-top: 0rem; */
+
+}
+.symbol{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image:hover{
+    opacity: 0.6;
+    border: 0px solid rgb(34, 32, 32);
+}
+#score-board{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 4.5rem;
+}
+#beat{
+    padding-top: 14px;
+    
+}
+.score{
+    /* border: 2px solid black; */
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.result{
+    /* border: 2px solid black; */
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(70, 18, 66);
+    color: aliceblue; */
+}
+.message{
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 40px;
+    border-radius: 1.5rem;
+    background-color: rgb(70, 18, 66);
+    color: aliceblue;
+}
+#small-logo{
+    height: 100px;
+    display: flex;
+    justify-content: end;
+}
+#you{
+    /* border: 2px solid black; */
+    width: 80px;
+    box-shadow: 10px 7px 20px black ;
+}
+#bot{
+    /* border: 2px solid black; */
+    width: 80px;
+    box-shadow: 10px 7px 20px black ;
+}
+@font-face {
+    font-family: InterBlack;
+    src: url(../html/Inter-Black.ttf);
+}
+@font-face {
+    font-family: InterBold;
+    src: url(../html/Inter-Bold.ttf);
+}
+p{
+    font-family: InterBlack;
+    font-size: 18px;
+    margin: 8px;
+}
