@@ -26,15 +26,12 @@ function gameplay(userchoice){
         draw(userchoice,compchoice);
     }
     else{
-        if(userchoice==="rock"){
+        if(userchoice==="rock")
             win=(compchoice==="paper")?false:true;
-        }
-        if(userchoice==="paper"){
+        if(userchoice==="paper")
             win=(compchoice==="scissor")?false:true;
-        }
-        if(userchoice==="scissor"){
+        if(userchoice==="scissor")
             win=(compchoice==="rock")?false:true;
-        }
         winner(win,userchoice,compchoice);
     }
 }
